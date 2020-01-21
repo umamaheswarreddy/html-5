@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+<title>CodePen - Online shopping site</title>
+<style>
+.padding {
+	padding:50px;
+}
+
+h1 {
+	font-family:raleway;
+	text-shadow:0px 2px 2px rgba(0,0,0,0.2),
+				0px 4px 4px rgba(0,0,0,0.4),
+				0px 10px 10px rgba(0,0,0,0.6);
+
+}
+
+span {
+	font-size:1.5em;
+}
+
+.form {
+	padding-left:9%;
+}
+
+.font {
+	font-size:30px;
+}
+
+.fontsize {
+	font-size:20px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color:white;
+}
+
+.navbar-inverse .navbar-brand {
+	color:white;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+	font-size:80px;
+}
+
+.cart {
+	height:2%;
+}
+
+.glyphicon-shopping-cart:before {
+	font-size:70px;
+	color: #A0A06C;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+	font-size:150px;
+	padding-top:1px;
+	color: #F4C870;
+}
+
+.jumbotron {
+	
+	background: url("https://source.unsplash.com/eQTtKVIN4oc");
+    
+	background-position:center;
+	background-size:cover;
+	height:100%;
+}
+
+.fa-cart-plus:before {
+	font-size:50px;
+	padding-right:10px;
+	color:white;
+}
+
+.chary {
+	
+	padding-top:-30px;
+	vertical-align:centre;
+}
+
+.jumbotron p {
+	text-indent:50px;
+	font-size:30px;
+    text-transform:capitalize;
+    font-family:spirax;
+}
+
+.jumbotron p::first-letter {
+	font-size:40px;
+}
+
+body {
+	background-image:url("https://source.unsplash.com/RUkHiE7xBbI");
+	/*background-repeat: no-repeat;*/
+    height:100%;
+	background-size:cover;
+	background-position:center;
+}
+	
+
+.thumbnail {
+	/*width:50%;*/
+	border-color:black;
+	border-color:white;
+
+}
+
+.margin {
+	margin-left: 200px;
+}
+
+.glyphicon-triangle-right {
+	font-size:15px;
+}
+
+.zooming: hover {
+  width:1000px;
+  height:1000px;
+}
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+<html>
+<head>
+<title>Charykart.com</title>
+<link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="shop.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+
+<div class="navbar-header">
+<div><i class="fa fa-cart-plus" aria-hidden="true"></i></span>
+</div>
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+<li class="fontsize"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+<li class="fontsize"><a href="#">Today's Deals <span class="sr-only">(current)</span></a></li>
+<li class="fontsize"><a href="#">Best deals</a></li>
+</ul>
+<form class="navbar-form navbar-left form">
+<div class="form-group">
+<input type="text" class="form-control" size="50" placeholder="Search">
+</div>
+<button type="submit" class="btn btn-default">Go!</button>
+</form>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="#">Signup <i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
+<li><a href="#">Login <i class="fa fa-user" aria-hidden="true"></i></a></li>
+</ul>
+</div>
+
+</div>
+
+</nav>
+<div class="jumbotron">
+<div class="container">
+<div class="chary">
+<h1>Charykart.com <span class="glyphicon glyphicon-shopping-cart " aria-hidden="true"></span></h1>
+</div>
+<p>Welcome to Charykart.com. Here you find the most adorable exotic clothes. <span>Happy shopping!</span> </p>
+</div>
+</div>
+<div class="row">
+<div class="container-fl">
+<div class="col-lg-6 padding">
+<div class="thumbnail">
+<img src="https://source.unsplash.com/WVFjZF2QNFk">
+</div>
+<button class="btn btn-default btn-lg"><a href="#"><p>Clothes <span class="glyphicon glyphicon-triangle-right"></span></p></a></button>
+</div>
+<div class="col-lg-6 padding">
+<div class="thumbnail">
+<img src="https://source.unsplash.com/7YyZFaNKuLQ">
+</div>
+<button class="btn btn-default btn-lg "><a href="#"><p>Shoes <span class="glyphicon glyphicon-triangle-right"></span></p></a></button>
+</div>
+<div class="col-lg-8 padding margin">
+<div class="thumbnail">
+<img src="https://source.unsplash.com/tAKXap853rY">
+</div>
+<button class="btn btn-default btn-lg"><a href="#"><p>Laptops <span class="glyphicon glyphicon-triangle-right"></span></p></a></button>
+</div>
+<div class="col-lg-6 padding">
+<div class="thumbnail zooming ">
+<img src="https://source.unsplash.com/vJ3GRQ9VCwk">
+</div>
+<button class="btn btn-default btn-lg"><a href="#"><p>Mobile <span class="glyphicon glyphicon-triangle-right"></span></p></a></button>
+</div>
+<div class="col-lg-6 padding">
+<div class="thumbnail">
+<img src="https://source.unsplash.com/qc3sE5lGLbA">
+</div>
+<button class="btn btn-default btn-lg"><a href="#"><p>Tablets <span class="glyphicon glyphicon-triangle-right"></span></p></a></button>
+</div>
+<div class="col-lg-6 padding">
+<div class="thumbnail">
+<img src="https://source.unsplash.com/Zq_K89I9E-8">
+</div>
+<button class="btn btn-default btn-lg"><a href="#"><p>Camera <span class="glyphicon glyphicon-triangle-right"></span></p></a></button>
+</div>
+<div class="col-lg-6 padding">
+<div class="thumbnail">
+<img src="https://source.unsplash.com/cEDzAukBYIc">
+</div>
+<button class="btn btn-default btn-lg"><a href="#"><p>Backpacks <span class="glyphicon glyphicon-triangle-right"></span></p></a></button>
+</div>
+</div>
+</div>
+</body>
+</html>
+</body>
+</html>

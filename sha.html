@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+<title>CodePen - Pink</title>
+<style>
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+
+body {
+background-color: #f4d2e3;
+  background-image: url("https://images.unsplash.com/photo-1513091250092-b06c2b7981bc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ca41250f18163d438465c86c604dfd06&auto=format&fit=crop&w=805&q=80");
+  background-repeat: no-repeat;
+  filter: alpha(opacity=50);
+    background-size: cover;
+      margin:0;}
+/* ?? ???? ??????? ????? 992 ?? ??? :*/
+@media screen and (max-width: 992px) {
+  body {
+background-color: #f4d2e3;
+  background-image: url("https://images.unsplash.com/photo-1513091250092-b06c2b7981bc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ca41250f18163d438465c86c604dfd06&auto=format&fit=crop&w=805&q=80");
+  background-repeat: no-repeat;
+  filter: alpha(opacity=50);
+    background-size: cover;
+      margin:0;  }
+}
+/* ?? ???? ??????? ????? 600 ?? ??? */
+@media screen and (max-width: 600px) {
+  body {
+background-color: #f4d2e3;
+  background-image: url("https://images.unsplash.com/photo-1513091250092-b06c2b7981bc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ca41250f18163d438465c86c604dfd06&auto=format&fit=crop&w=805&q=80");
+  background-repeat: no-repeat;
+  filter: alpha(opacity=50);
+    background-size: cover;
+      margin:0;  }
+}
+
+
+
+
+#header {
+  width: 100%;
+  height: 200px;
+  background-color: #eb4095;
+  color: white;
+  padding-top: 10px;
+  display: block;
+  font-family: 'Satisfy', cursive;
+}
+
+
+
+#header {
+  
+  background-image: url("https://images.unsplash.com/photo-1521192251819-0549ec47e304?ixlib=rb-0.3.5&s=be281803f8bf772e7da04523ae761022&auto=format&fit=crop&w=783&q=80");  
+    opacity: 0.5;
+  background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+/*  social icons */
+.social {
+  display: flex;
+  float: left;
+}
+.social-container img {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+
+
+.social-container {
+  border: 2px solid white;
+  position: absolute;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  margin: 0px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  right: 0px;
+  top: 20px;
+  float: left;
+}
+
+
+
+
+
+#menu {
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  display: block;
+  margin-top: 3px;
+  font-family: 'Satisfy', cursive;
+    color: white;
+
+}
+button {
+  color: black;
+  font-size: 16px;
+  letter-spacing: normal;
+  line-height: 32px;
+  background-color: transparent;
+  border: none;
+  width: 100px;
+  height: 50px;
+  font-family: 'Satisfy', cursive;
+    color: white;
+  border-radius: 12px;
+ -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.background-color{
+  background-color: pink;
+} 
+
+.button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+button:hover {
+  background-color: #eb4095;
+  color: white;
+}
+
+
+#big_title {
+    text-align :center ;
+    text-size : 50%
+    font-family: 'Satisfy', cursive;
+} 
+
+.description{
+      width: 100%;
+      background-color: #ffe6f7;
+      color: #eb4095;
+      padding-top: 10px;
+      display: block;
+      position : right ;
+      text-size: 100pt;
+      font-family: 'Satisfy', cursive;
+
+}
+
+
+
+.welcome {
+    display: -webkit-flex;
+    display: flex;
+    text-align: center ;
+
+}
+
+.image{
+  position : center ;
+}
+
+
+p{
+  text-size: 70%;
+  text-align: center ;
+}
+
+
+footer:hover {
+  background-color: #fff;
+  color: white;
+}
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pink</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src=".js"></script>
+<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+<h1 id="big_title">Pink</h1>
+<h3 id="small_title" style="text-align: center">Online Shopping</h3>
+<div id="social">
+<div class="social-container" style="right: 280px;"><img src="https://image.ibb.co/ep68J8/f.png" style="margin: 0px 0px 0px 0px"></div>
+<div class="social-container" style="right: 200px;"><img src="https://image.ibb.co/jpL2d8/p.png" style="margin: 0px 0px 0px 0px"></div>
+<div class="social-container" style="right: 240px;"><img src="https://image.ibb.co/kmW3ko/t.png" style="margin: 0px 0px 0px 0px"></div>
+</div>
+</div><br>
+<div id="menu">
+<a href="https://codepen.io/som973/pen/qYzyyQ"><button type="button" class="background-color">HOME</button></a> <a href="https://codepen.io/som973/pen/PeMQwJ?editors=1100"><button type="button">Registe</button></a> <a href="https://codepen.io/som973/pen/bKbzym?editors=1100"><button type="button">Gallary</button></a> <a href="https://codepen.io/som973/pen/gKOBRg?editors=1100"><button type="button">Map</button></a> <a href="https://codepen.io/som973/pen/PaoyNb"><button type="button">About Us</button></a> <a href="https://codepen.io/som973/pen/dexEKW"><button type="button">CONTACT</button></a>
+</div>
+<div class="welcome">
+<div class="description">
+<h1 id="welcome1" style="font-size: 40pt;">Welcome to our site</h1><br>
+<p id="text1" style="font-size: 20pt;">You can shop<br> by pressing one button ,<br> we have high quality products<br> and prices will get your satisfaction .</p>
+</div>
+<div class="image"><img align="right" alt="This is a screenshot" src="https://media.giphy.com/media/3oriO6qJiXajN0TyDu/giphy.gif"></div>
+</div>
+<footer>
+<div align="center" style="font-size: 20pt; font-family: 'tahoma';color:#eb4095;">
+<p><strong>© Copyright 2018-2019 by Asmaa Sheikh</strong></p>
+</div>
+</footer>
+</body>
+</html>
+</body>
+</html>
